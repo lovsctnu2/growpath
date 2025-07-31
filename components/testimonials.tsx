@@ -25,7 +25,7 @@ const Testimonials = () => {
                 <h4 className="text-gray-700 text-sm text-start font-light">Occupation</h4>
               </div>
             </div>
-            <p className="text-lg text-start w-[339px] h-[121px] leading-0 leading-tight">
+            <p className="text-lg text-start w-[339px] h-[121px] leading-0">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. In quis erat mattis, pharetra sapien nec, rutrum lectus. Maecenas sed magna ac velit rutrum viverra a eu quam.
             </p>
           </div>
@@ -43,7 +43,7 @@ const Testimonials = () => {
                 <h4 className="text-gray-700 text-sm text-start font-light">Occupation</h4>
               </div>
             </div>
-            <p className="text-lg text-start w-[339px] h-[121px] leading-0 leading-tight">
+            <p className="text-lg text-start w-[339px] h-[121px] leading-0">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. In quis erat mattis, pharetra sapien nec, rutrum lectus. Maecenas sed magna ac velit rutrum viverra a eu quam.
             </p>
           </div>
@@ -61,7 +61,7 @@ const Testimonials = () => {
                 <h4 className="text-gray-700 text-sm text-start font-light">Occupation</h4>
               </div>
             </div>
-            <p className="text-lg text-start w-[339px] h-[121px] leading-0 leading-tight">
+            <p className="text-lg text-start w-[339px] h-[121px] leading-0">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. In quis erat mattis, pharetra sapien nec, rutrum lectus. Maecenas sed magna ac velit rutrum viverra a eu quam.
             </p>
           </div>

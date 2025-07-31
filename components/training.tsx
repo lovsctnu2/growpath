@@ -9,7 +9,6 @@ import FilterModal, { FilterValues } from './filterModal';
 import { TrainingData, transformRecommendationToTrainingData } from '@/data/training';
 import { Recommendations } from '@/data/recommendation';
 import NavbarHome from "@/components/navbar/navbarHome";
-import Training from "@/components/training";
 
 const TrainingPage: React.FC = () => {
   const [allTrainings, setAllTrainings] = useState<TrainingData[]>([]);
@@ -67,7 +66,7 @@ const TrainingPage: React.FC = () => {
     };
 
     fetchAndProcessRecommendations();
-  }, []);
+  }, [currentFilters]);
 
   const applyFilters = (dataToFilter: TrainingData[], filters: FilterValues) => {
     let filteredData = [...dataToFilter];

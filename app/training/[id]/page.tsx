@@ -3,7 +3,6 @@
 
 import React, { useState, useEffect } from 'react';
 import NavbarHome from "@/components/navbar/navbarHome";
-import Image from 'next/image';
 import { TrainingData, transformRecommendationToTrainingData } from '@/data/training';
 import { Recommendations } from '@/data/recommendation';
 

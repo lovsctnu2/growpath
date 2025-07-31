@@ -1,23 +1,10 @@
 "use client";
 
 import React, { useState } from 'react';
-import Image from 'next/image';
 import clsx from 'clsx';
 import { allJobsData, JobData } from '@/data/jobs';
 import JobCard from './jobcard';
 
-interface NavLinkProps {
-  href: string;
-  label: string;
-}
-
-const navLinks: NavLinkProps[] = [
-  { href: "#jobs", label: "Jobs" },
-  { href: "#training", label: "Training" },
-  { href: "#mentoring", label: "#mentoring" },
-  { href: "#interview", label: "Interview" },
-  { href: "#progress", label: "Progress" },
-];
 
 const careerFields: string[] = [
   "Software Engineering",

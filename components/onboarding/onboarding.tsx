@@ -1,6 +1,7 @@
 "use client";
 
 import React, { useState, useRef, useEffect } from 'react';
+import Image from 'next/image';
 import clsx from 'clsx';
 
 interface GoalOption {
@@ -51,7 +52,7 @@ const GoalCard: React.FC<GoalCardProps> = ({ goal, isSelected, onSelect }) => {
       )}
       onClick={() => onSelect(goal.id)}
     >
-      <img
+      <Image
         src="/onboarding.svg"
         alt={goal.title}
         className="w-full h-auto object-cover"
