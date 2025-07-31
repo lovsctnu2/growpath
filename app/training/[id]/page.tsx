@@ -1,4 +1,3 @@
-
 "use client";
 
 import React, { useState, useEffect } from 'react';
@@ -116,7 +115,7 @@ export default function TrainingDetailPage({ params }: TrainingDetailPageProps) 
         </p>
 
         <div className="flex items-center text-xl text-black mb-6">
-          <svg className="w-5 h-5 mr-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.462a1 1 0 00.95-.69l1.07-3.292z"></path></svg>
+          <svg className="w-5 h-5 mr-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.462a1 0 00.95-.69l1.07-3.292z"></path></svg>
           <span className="font-semibold text-xl mr-2">{trainingDetail.rating}</span> ({trainingDetail.enrolledByCount} already enrolled)
         </div>
 
@@ -152,7 +151,7 @@ export default function TrainingDetailPage({ params }: TrainingDetailPageProps) 
             <h2 className="text-4xl font-bold text-black mb-4">What you&apos;ll learn</h2>
             <p className="text-black text-lg leading-relaxed">
               {trainingDetail.benefit}
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. In quis erat mattis, pharetra sapien nec, rutrum lectus. Maecenas sed magna ac velit rutrum viverra a eu quam. Cras auctor sagittis nisi. Vivamus a tortor bibendum, iaculis mauris non, bibendum ante. Vivamus egestas scelerisque leo eget volutpat. In et nibh ut erat tincidunt pellentesque nec nec turpis. Vestibulum a erat at libero venenatis porttitor quis ut velit. In et nibh ut erat tincidunt pellentesque nec nec turpis. Vestibulum a erat at libero venenatis porttitor quis ut velit.  In et nibh ut erat tincidunt pellentesque nec nec turpis. Vestibulum a erat at libero venenatis porttitor quis ut velit.</p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. In quis erat mattis, pharetra sapien nec, rutrum lectus. Maecenas sed magna ac velit rutrum viverra a eu quam. Cras auctor sagittis nisi. Vivamus a tortor bibendum, iaculis mauris non, bibendum ante. Vivamus egestas scelerisque leo eget volutpat. In et nibh ut erat tincidunt pellentesque nec nec turpis. Vestibulum a erat at libero venenatis porttitor quis ut velit. In et nibh ut erat tincidunt pellentesque nec nec turpis. Vestibulum a erat at libero venenatis porttitor quis ut velit. 	In et nibh ut erat tincidunt pellentesque nec nec turpis. Vestibulum a erat at libero venenatis porttitor quis ut velit.</p>
           </>
         )}
       </main>
