@@ -1,0 +1,18 @@
+import Link from "next/link";
+import Image from "next/image";
+import Navlink from "@/components/navbar/navlink";
+
+const navbar = () => {
+  return (
+    <div className="fixed py-12 px-12 w-full bg-white border-b border-black/58 z-20">
+        <div className="max-w-screen-xl mx-auto flex items-center justify-between">
+            <Link href="/">
+            <Image src="/Logo.svg" width={337} height={83} alt="logo" priority></Image>
+            </Link>
+            <Navlink />
+        </div>
+    </div>
+  )
+}
+
+export default navbar
