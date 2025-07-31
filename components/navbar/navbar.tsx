@@ -7,7 +7,7 @@ const navbar = () => {
     <div className="fixed py-12 px-12 w-full bg-white border-b border-black/58 z-20">
         <div className="max-w-screen-xl mx-auto flex items-center justify-between">
             <Link href="/">
-            <Image src="/Logo.svg" width={337} height={83} alt="logo" priority></Image>
+            <Image src="/logo.svg" width={337} height={83} alt="logo" priority></Image>
             </Link>
             <Navlink />
         </div>
