@@ -13,10 +13,10 @@ const Hero = () => {
             </p>
 
           <div className="mt-12 flex flex-col md:flex-row gap-4 justify-center text-center lg:justify-start">
-            <Link href="#" className="py-3 px-8 bg-primary text-white w-59 text-2xl font-bold rounded-full transition inline-block">
+            <Link href="/login" className="py-3 px-8 bg-primary text-white w-59 text-2xl font-bold rounded-full transition inline-block">
             Get started
             </Link>
-            <Link href="#" className="py-3 px-8 border border-primary text-primary w-59 text-2xl font-bold rounded-full hover:bg-blue-50 transition inline-block">
+            <Link href="/about" className="py-3 px-8 border border-primary text-primary w-59 text-2xl font-bold rounded-full hover:bg-blue-50 transition inline-block">
             Learn more
             </Link>
         </div>

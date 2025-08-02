@@ -1,4 +1,3 @@
-// app/training/page.tsx
 "use client";
 
 import React, { useState, useEffect } from 'react';
@@ -36,19 +35,31 @@ const TrainingPage: React.FC = () => {
         setError(null);
 
         const mockApiResponse: Recommendations[] = [
-          { platform: "edX", similarity_score: 0.681476625210877, title: "Computational Thinking and Big Data" },
+          { platform: "edX", similarity_score: 0.6814766252108769, title: "Computational Thinking and Big Data" },
           { platform: "edX", similarity_score: 0.5998107852795231, title: "Big Data Capstone Project" },
           { platform: "Coursera", similarity_score: 0.5292961158832871, title: "Whole genome sequencing of bacterial genomes - tools and applications" },
           { platform: "Corporate Finance Institute", similarity_score: 0.5131849928653224, title: "Loan Default Prediction with Machine Learning" },
           { platform: "Coursera", similarity_score: 0.4966520801032446, title: "Use Tableau for your Data Science Workflow" },
-          { platform: "Udemy", similarity_score: 0.701234567890123, title: "The Complete 2024 Web Development Bootcamp" },
-          { platform: "Coursera", similarity_score: 0.654321098765432, title: "Machine Learning Engineering for Production (MLOps) Specialization" },
-          { platform: "edX", similarity_score: 0.600000000000000, title: "Introduction to Computer Science and Programming Using Python" },
-          { platform: "Udemy", similarity_score: 0.555555555555555, title: "Python for Data Science and Machine Learning Bootcamp" },
-          { platform: "Coursera", similarity_score: 0.500000000000000, title: "Deep Learning Specialization" },
-          { platform: "Udemy", similarity_score: 0.480000000000000, title: "React - The Complete Guide (incl Hooks, React Router, Redux)" },
-          { platform: "edX", similarity_score: 0.450000000000000, title: "Data Science: R Basics" },
-          { platform: "Corporate Finance Institute", similarity_score: 0.400000000000000, title: "Financial Modeling & Valuation Analyst (FMVA)®" },
+          { platform: "YouTube", similarity_score: 0.7243166453431845, title: "AI for Clinical Trials and Precision Medicine - Ruishan Liu" },
+          { platform: "Noble Desktop", similarity_score: 0.7061294729080831, title: "ChatGPT Level 2 (Live Online)" },
+          { platform: "DataCamp", similarity_score: 0.4914181073382185, title: "Understanding ChatGPT" },
+          { platform: "Udemy", similarity_score: 0.48593876155149296, title: "Learn DevOps: CI/CD with Jenkins using Pipelines and Docker" },
+          { platform: "YouTube", similarity_score: 0.4652095881607209, title: "Database Management Systems - Lecture 7" },
+          { platform: "Udemy", similarity_score: 0.5684219415177763, title: "Ciencia de datos para todos los publicos" },
+          { platform: "CodeSignal", similarity_score: 0.5565704250466145, title: "Mastering Docker: Containers, Networking, and Orchestration" },
+          { platform: "YouTube", similarity_score: 0.549128256812109, title: "Introduction to CSS Variables - CSS Custom Properties - Full Tutorial" },
+          { platform: "edX", similarity_score: 0.5153466112772265, title: "CSS Basics" },
+          { platform: "YouTube", similarity_score: 0.50687419774409, title: "Interactive Session on Data Analysis - Lecture 1" },
+          { platform: "edX", similarity_score: 0.0, title: "Text Analytics with Python" },
+          { platform: "YouTube", similarity_score: 0.0, title: "Streamlining Property Search Across Multiple Platforms Using AI and Machine Learning" },
+          { platform: "YouTube", similarity_score: 0.0, title: "Open Source AI Everywhere - Collaborative Machine Learning and Ecosystem Overview" },
+          { platform: "YouTube", similarity_score: 0.0, title: "Machine Learning for Transaction Monitoring in the Anti-Money Laundering Framework: Challenges and Opportunities" },
+          { platform: "YouTube", similarity_score: 0.0, title: "Bridging Machine Learning and Optimization with JuMP" },
+          { platform: "edX", similarity_score: 0.0, title: "Text Analytics with Python" },
+          { platform: "YouTube", similarity_score: 0.0, title: "Streamlining Property Search Across Multiple Platforms Using AI and Machine Learning" },
+          { platform: "YouTube", similarity_score: 0.0, title: "Open Source AI Everywhere - Collaborative Machine Learning and Ecosystem Overview" },
+          { platform: "YouTube", similarity_score: 0.0, title: "Machine Learning for Transaction Monitoring in the Anti-Money Laundering Framework: Challenges and Opportunities" },
+          { platform: "YouTube", similarity_score: 0.0, title: "Bridging Machine Learning and Optimization with JuMP" }
         ];
 
         await new Promise(resolve => setTimeout(resolve, 1000));

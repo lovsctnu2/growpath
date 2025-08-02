@@ -1,6 +1,6 @@
 // components/trainingSection.tsx
-import React, { RefObject } from 'react'; // Pastikan RefObject diimpor
-import TrainingCard from './trainingCard'; // Path ke TrainingCard
+import React, { RefObject } from 'react'; 
+import TrainingCard from './trainingCard'; 
 import { TrainingData } from '@/data/training';
 import Image from 'next/image';
 

@@ -42,7 +42,7 @@ const LoginPage = () => {
 
           
 <div className="flex flex-row">
-    <div className="flex justify-items-start p-0 m-0">
+    <div className="flex justify-items-start mb-6">
         <input type="checkbox" id="rememberMe" className="ml-auto accent-primary" />
         <label htmlFor="rememberMe" className="text-xl underline text-black">Remember me</label>
     </div>
@@ -50,9 +50,11 @@ const LoginPage = () => {
 </div>
 
 <div className="flex justify-center">
-<button className="w-[236px] py-3 bg-primary text-white rounded-full font-bold text-lg hover:bg-blue-700 transition mb-6">
-    Log in
-</button>
+<Link href="/job" passHref>
+  <button className="w-[236px] py-3 bg-primary text-white rounded-full font-bold text-lg mb-6 hover:bg-blue-700 transition">
+    Log in
+  </button>
+</Link>
 </div>
 
           <div className="text-center text-sm text-gray-600">

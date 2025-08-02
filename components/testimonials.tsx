@@ -25,7 +25,7 @@ const Testimonials = () => {
                 <h4 className="text-gray-700 text-sm text-start font-light">Occupation</h4>
               </div>
             </div>
-            <p className="text-lg text-start w-[339px] h-[121px] leading-0">
+            <p className="text-lg text-start w-[339px] h-[121px] leading-tight">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. In quis erat mattis, pharetra sapien nec, rutrum lectus. Maecenas sed magna ac velit rutrum viverra a eu quam.
             </p>
           </div>
@@ -43,7 +43,7 @@ const Testimonials = () => {
                 <h4 className="text-gray-700 text-sm text-start font-light">Occupation</h4>
               </div>
             </div>
-            <p className="text-lg text-start w-[339px] h-[121px] leading-0">
+            <p className="text-lg text-start w-[339px] h-[121px] leading-tight">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. In quis erat mattis, pharetra sapien nec, rutrum lectus. Maecenas sed magna ac velit rutrum viverra a eu quam.
             </p>
           </div>
@@ -61,7 +61,7 @@ const Testimonials = () => {
                 <h4 className="text-gray-700 text-sm text-start font-light">Occupation</h4>
               </div>
             </div>
-            <p className="text-lg text-start w-[339px] h-[121px] leading-0">
+            <p className="text-lg text-start w-[339px] h-[121px] leading-tight">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. In quis erat mattis, pharetra sapien nec, rutrum lectus. Maecenas sed magna ac velit rutrum viverra a eu quam.
             </p>
           </div>
@@ -72,7 +72,7 @@ const Testimonials = () => {
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight">Get Early Access!</h1>
             <p className="text-lg mt-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In quis erat mattis, pharetra sapien nec, rutrum lectus. Maecenas sed magna ac velit rutrum viverra a eu quam.</p>
             <div className="mt-8 flex flex-col md:flex-row gap-4 justify-center lg:justify-start">
-              <Link href="#" className="py-3 px-8 bg-primary text-white w-fit text-lg md:text-xl font-bold rounded-full transition">
+              <Link href="/login" className="py-3 px-8 bg-primary text-white w-fit text-lg md:text-xl font-bold rounded-full transition">
                 Sign up now
               </Link>
             </div>
